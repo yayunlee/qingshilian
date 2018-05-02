@@ -1,0 +1,437 @@
+body {
+  font-family: PingFangSC-Regular;
+}
+
+#program {
+  background: url(../images/首页背景.png) left bottom;
+  padding-bottom: 324px;
+}
+
+.header {
+  color: #DEDDED;
+  font-size: 18px;
+  letter-spacing: 1.75px;
+  margin-left: 123px;
+  padding-top: 50px;
+}
+
+.header img {
+  line-height: 28px;
+  vertical-align: middle;
+  margin-right: 12.5px;
+}
+
+.header .program {
+  display: inline-block;
+  line-height: 28px;
+  vertical-align: middle;
+  margin-left: 12.5px;
+}
+
+.title {
+  color: #DEDDED;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 68px;
+  text-shadow: 0 0 4px rgba(112,215,197,0.60);
+  margin-top: 236px;
+  margin-bottom: 0px;
+}
+
+.contactus {
+  text-align: center;
+  margin-top: 42px;
+}
+
+.contactus img {
+  width: 145px;
+}
+
+
+#lionchain {
+  background-image: url(../images/为什么选择青狮链背景.png);
+  padding-top: 100px;
+}
+
+.select {
+  font-size: 40px;
+  color: #DEDDED;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 68px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.technology {
+  font-size: 18px;
+  color: #50BBBD;
+  letter-spacing: 1.75px;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 9px;
+  margin-bottom: 0px;
+}
+
+#why {
+  text-align: center;
+  margin-top: 96px;
+}
+
+#why img {
+  height: 110px;
+}
+
+#why h2 {
+  font-family: PingFangSC-Semibold;
+  font-size: 20px;
+  color: #50BBBD;
+  letter-spacing: 1.94px;
+  line-height: 28px;
+  margin: 22px 0px;
+}
+
+#why p {
+  font-size: 18px;
+  color: #DEDDED;
+  letter-spacing: 1.75px;
+  line-height: 28px;
+}
+
+
+#server {
+  background-image: url(../images/业务背景@2x.png);
+  padding-top: 237px;
+  padding-bottom: 170px;
+}
+
+#server h1 {
+  font-size: 40px;
+  color: #DEDDED;
+  letter-spacing: 3px;
+  line-height: 68px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#item {
+  margin-top: 82px;
+}
+
+#block-chain-project {
+  margin-bottom: 90px;
+}
+
+.middle {
+  text-align: center;
+}
+
+#server img {
+  height: 68px;
+}
+
+#server h2 {
+  font-family: PingFangSC-Semibold;
+  font-size: 20px;
+  color: #50BBBD;
+  letter-spacing: 1.94px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 58px;
+}
+
+.item1 {
+  margin-bottom: 22px;
+}
+
+.item2,#item3,#item4 {
+  margin-bottom: 50px;
+}
+
+#server ul {
+  list-style-image : url(../images/序列.png);
+  font-size: 18px;
+  color: #DEDDED;
+  letter-spacing: 1.75px;
+  line-height: 28px;
+  list-style-position: inside;
+  padding-left: 0px;
+  text-align: center;
+}
+
+#server ul .list1,.list6 {
+  padding-right: 40px;
+}
+
+#server ul .list2,.list3 {
+  padding-right: 20px;
+}
+
+#server ul .list4 {
+  padding-right: 112px;
+}
+
+#server ul .list5 {
+  padding-right: 60px;
+}
+
+
+#representative {
+  background: url(../images1/项目.png) left bottom;
+  padding-top: 108px;
+  padding-bottom: 156px;
+}
+
+#representative h1 {
+  font-family: PingFangSC-Regular;
+  font-size: 40px;
+  color: #DEDDED;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 68px;
+  margin-bottom: 67px;
+  margin-top: 0px;
+}
+
+#representative .cooperative-partner {
+  margin-top: 54px;
+  margin-bottom: 61px;
+}
+
+#representative .family {
+  width: 939px;
+  margin: 0 auto;
+}
+
+#representative ul {
+  font-family: PingFangSC-Regular;
+  font-size: 18px;
+  color: #DEDDED;
+  letter-spacing: 1.75px;
+  text-align: justify;
+  line-height: 36px;
+  list-style-image: url(../images1/菱形.png);
+}
+
+#representative .partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#representative .partner .partner2 {
+  margin-left: 84px;
+}
+
+#representative .partner .partner3 {
+  margin-left: 74px;
+}
+
+
+#team {
+  background-image: url(../images1/团队.png);
+  padding-top: 100px;
+  padding-bottom: 156px;
+}
+
+#team h1 {
+  font-size: 40px;
+  color: #DEDDED;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 68px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#talent {
+  font-size: 18px;
+  color: #50BBBD;
+  letter-spacing: 1.75px;
+  text-align: center;
+  line-height: 28px;
+  margin-bottom: 101px;
+  margin-top: 34px;
+}
+
+#consultant {
+  margin-bottom: 78px;
+}
+
+#character .characterimg {
+  text-align: center;
+}
+
+#character img {
+  height: 140px;
+  width: 140px;
+}
+
+#character h2 {
+  font-family: PingFangSC-Semibold;
+  font-size: 20px;
+  color: #50BBBD;
+  letter-spacing: 1.94px;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+#character .enterprise {
+  margin-bottom: 0px;
+}
+
+#character h3 {
+  font-family: PingFangSC-Light;
+  font-size: 14px;
+  color: #50BBBD;
+  letter-spacing: 1.94px;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+#character p {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #DEDDED;
+  letter-spacing: 1.36px;
+  text-align: justify;
+  line-height: 28px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+#team .principal {
+  width: 750px;
+  margin: 0 auto;
+}
+
+
+#institute {
+  background-image: url(../images1/研究院.png);
+  padding-top: 103px;
+  padding-bottom: 125px;
+}
+
+#institute h1 {
+  font-family: PingFangSC-Regular;
+  font-size: 40px;
+  color: #DEDDED;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 68px;
+  margin-top: 0px;
+  margin-bottom: 51px;
+}
+
+#institute .legal {
+  font-family: PingFangSC-Regular;
+  font-size: 18px;
+  color: #50BBBD;
+  letter-spacing: 1.75px;
+  text-align: justify;
+  line-height: 28px;
+  width: 694px;
+  margin: 0 auto;
+}
+
+#institute h2 {
+  font-family: PingFangSC-Regular;
+  font-size: 20px;
+  color: #DEDDED;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 66px;
+  margin-bottom: 49px;
+}
+
+#institute .university-researcher {
+  width: 694px;
+  margin: 0 auto;
+}
+
+#institute .names {
+  list-style-image: url(../images/序列.png);
+  font-family: PingFangSC-Regular;
+  font-size: 18px;
+  color: #39B6AE;
+  letter-spacing: 1.36px;
+  text-align: justify;
+  line-height: 28px;
+  padding-left: 0px;
+}
+
+#institute .researcher {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #DEDDED;
+  letter-spacing: 1.36px;
+  text-align: justify;
+  line-height: 28px;
+  margin-bottom: 0px;
+}
+
+#institute .report {
+  margin-top: 71px;
+  margin-bottom: 66px;
+}
+
+#institute .legal-policy {
+  width: 765px;
+  margin: 0 auto;
+}
+
+#institute #research-report ul {
+  list-style-image: url(../images/序列.png);
+  padding-left: 30px;
+}
+
+#institute #research-report ul .virtual-currency {
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #DEDDED;
+  letter-spacing: 1.75px;
+  text-align: justify;
+  line-height: 36px;
+}
+
+#institute #research-report ul .coming-soon {
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #DEDDED;
+  opacity:0.45;
+  letter-spacing: 1.75px;
+  text-align: justify;
+  line-height: 36px;
+}
+
+
+#footer {
+  background-image: url(../images1/底.png);
+  padding-top: 133px;
+  padding-bottom: 132px;
+}
+
+#footer h1 {
+  font-family: PingFangSC-Regular;
+  font-size: 40px;
+  color: #DEDDED;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 68px;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+#footer .contactus1 {
+  text-align: center;
+}
+
+#footer .contactus1 img {
+  width: 145px;
+}
