@@ -3,22 +3,24 @@ body {
 }
 
 #program {
-  background: url(../images/首页背景.png) left bottom;
+  background: url(../images2/首页.jpg) bottom left;
+  background-size: 2000px;
   padding-bottom: 324px;
+  padding-top: 236px;
 }
 
 .header {
   color: #DEDDED;
   font-size: 18px;
   letter-spacing: 1.75px;
-  margin-left: 123px;
-  padding-top: 50px;
+  padding-top: 150px;
 }
 
 .header img {
   line-height: 28px;
   vertical-align: middle;
   margin-right: 12.5px;
+  width: 116px;
 }
 
 .header .program {
@@ -35,7 +37,7 @@ body {
   text-align: center;
   line-height: 68px;
   text-shadow: 0 0 4px rgba(112,215,197,0.60);
-  margin-top: 236px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -50,8 +52,9 @@ body {
 
 
 #lionchain {
-  background-image: url(../images/为什么选择青狮链背景.png);
-  padding-top: 100px;
+  background: url(../images2/为什么.jpg);
+  background-size: 2000px;
+  padding: 100px 0px;
 }
 
 .select {
@@ -97,13 +100,15 @@ body {
   color: #DEDDED;
   letter-spacing: 1.75px;
   line-height: 28px;
+  margin-bottom: 0px;
 }
 
 
 #server {
-  background-image: url(../images/业务背景@2x.png);
-  padding-top: 237px;
-  padding-bottom: 170px;
+  background: url(../images2/服务.jpg);
+  background-size: 2000px;
+  padding-top: 137px;
+  padding-bottom: 20px;
 }
 
 #server h1 {
@@ -112,7 +117,7 @@ body {
   letter-spacing: 3px;
   line-height: 68px;
   text-align: center;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 #item {
@@ -158,6 +163,7 @@ body {
   list-style-position: inside;
   padding-left: 0px;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 #server ul .list1,.list6 {
@@ -169,7 +175,7 @@ body {
 }
 
 #server ul .list4 {
-  padding-right: 112px;
+  padding-right: 117px;
 }
 
 #server ul .list5 {
@@ -178,13 +184,13 @@ body {
 
 
 #representative {
-  background: url(../images1/项目.png) left bottom;
-  padding-top: 108px;
+  background: url(../images2/代表项目合作伙伴.jpg) bottom left;
+  background-size: 2000px;
+  padding-top: 258px;
   padding-bottom: 156px;
 }
 
 #representative h1 {
-  font-family: PingFangSC-Regular;
   font-size: 40px;
   color: #DEDDED;
   letter-spacing: 3px;
@@ -195,7 +201,7 @@ body {
 }
 
 #representative .cooperative-partner {
-  margin-top: 54px;
+  margin-top: 108px;
   margin-bottom: 61px;
 }
 
@@ -211,7 +217,19 @@ body {
   letter-spacing: 1.75px;
   text-align: justify;
   line-height: 36px;
-  list-style-image: url(../images1/菱形.png);
+  margin-bottom: 0px;
+}
+
+#representative ul > li {
+  list-style-image: none;
+  background: url(../images1/菱形.png) no-repeat 7px 7px transparent;
+  padding: 0px 0px 0px 30px;
+  list-style: none;
+  margin: 0;
+}
+
+#representative .provide-services {
+  padding-right: 20px;
 }
 
 #representative .partner {
@@ -230,7 +248,8 @@ body {
 
 
 #team {
-  background-image: url(../images1/团队.png);
+  background: url(../images2/团队.jpg);
+  background-size: 2000px;
   padding-top: 100px;
   padding-bottom: 156px;
 }
@@ -311,14 +330,15 @@ body {
 }
 
 
+
 #institute {
-  background-image: url(../images1/研究院.png);
+  background: url(../images2/研究院.jpg);
+  background-size: 2000px;
   padding-top: 103px;
   padding-bottom: 125px;
 }
 
 #institute h1 {
-  font-family: PingFangSC-Regular;
   font-size: 40px;
   color: #DEDDED;
   letter-spacing: 3px;
@@ -329,7 +349,6 @@ body {
 }
 
 #institute .legal {
-  font-family: PingFangSC-Regular;
   font-size: 18px;
   color: #50BBBD;
   letter-spacing: 1.75px;
@@ -340,10 +359,9 @@ body {
 }
 
 #institute h2 {
-  font-family: PingFangSC-Regular;
   font-size: 20px;
   color: #DEDDED;
-  letter-spacing: 3px;
+  letter-spacing  : 3px;
   text-align: center;
   line-height: 40px;
   margin-top: 66px;
@@ -389,10 +407,10 @@ body {
 #institute #research-report ul {
   list-style-image: url(../images/序列.png);
   padding-left: 30px;
+  margin-bottom: 0px;
 }
 
 #institute #research-report ul .virtual-currency {
-  font-family: PingFangSC-Regular;
   font-size: 16px;
   color: #DEDDED;
   letter-spacing: 1.75px;
@@ -401,7 +419,6 @@ body {
 }
 
 #institute #research-report ul .coming-soon {
-  font-family: PingFangSC-Regular;
   font-size: 16px;
   color: #DEDDED;
   opacity:0.45;
@@ -411,8 +428,10 @@ body {
 }
 
 
+
 #footer {
-  background-image: url(../images1/底.png);
+  background: url(../images2/底部.jpg);
+  background-size: 2000px;
   padding-top: 133px;
   padding-bottom: 132px;
 }
@@ -434,4 +453,639 @@ body {
 
 #footer .contactus1 img {
   width: 145px;
+}
+
+@media print, screen and (max-width: 991px) {
+  #why p {
+    margin-bottom: 48px;
+  }
+
+  #why .project-consultant {
+    margin-bottom: 0px;
+  }
+
+
+  .middle {
+    margin-top: 69px;
+  }
+
+  #slicecopy2,.slice {
+    margin-top: 0px;
+  }
+
+  #block-chain-project {
+    margin-bottom: 69px;
+  }
+
+
+  #representative .family {
+    width: 595px;
+  }
+
+  #representative .partner {
+    display: block;
+    text-align: center;
+  }
+
+  #representative .partner .partner2 {
+    margin-left: 0px;
+  }
+
+  #representative .partner .partner3 {
+    margin-left: 0px;
+  }
+
+  #representative .partner .partner1 {
+    margin-bottom: 62px;
+  }
+
+  #representative .partner .partner2 {
+    margin-bottom: 57px;
+  }
+
+
+  #character p {
+    width: 608px;
+    padding-bottom: 57px;
+  }
+
+  #consultant {
+    margin-bottom: 0px;
+  }
+
+  #character .senior-visual-designer {
+    padding-bottom: 0px;
+  }
+
+  #team .principal {
+    width: auto;
+  }
+
+
+  #institute .legal-policy {
+    width: auto;
+    text-align: center;
+  }
+
+  #institute #research-report ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  #institute #research-report ul li {
+    text-align: center !important;
+    list-style-position: inside;
+  }
+
+  #institute #research-report {
+    margin-top: 34px;
+  }
+
+  #institute #research-report ul .virtual-currency1 {
+    margin-right: 61px;
+  }
+
+  #institute #research-report ul .virtual-currency2 {
+    margin-right: 43px;
+  }
+
+  #institute #research-report ul .virtual-currency3 {
+    margin-right: 61px;
+  }
+
+  #institute #research-report ul .coming-soon1 {
+    margin-left: 45px;
+  }
+
+  #institute #research-report ul .coming-soon2 {
+    margin-left: 44px;
+  }
+
+  #institute #research-report ul .coming-soon3 {
+    margin-left: 60px;
+  }
+
+  #institute .university-researcher {
+    padding-left: 30px;
+  }
+
+
+  #program {
+    background-size: 1000px 1400px;
+  }
+
+  #lionchain {
+    background-size: 1000px 1200px;
+  }
+
+  #server {
+    background-size: 1000px 2400px;
+  }
+
+  #representative {
+    background-size: 1000px 1600px;
+  }
+
+  #team {
+    background-size: 1000px 2600px;
+  }
+
+  #institute {
+    background-size: 1000px 1500px;
+  }
+
+  #footer {
+    background-size: 1000px 500px;
+  }
+}
+
+@media print, screen and (max-width: 767px) {
+  #program {
+    padding-top: 45px;
+    padding-bottom: 282px;
+  }
+
+  .header {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 2.25px;
+  }
+
+  .header img {
+    margin-right: 0px;
+    width: 113px;
+  }
+
+  .header .program {
+    display: block;
+    margin-left: 0px;
+    margin-top: 18px;
+    line-height: 19px;
+  }
+
+  .title {
+    margin-top: 141px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 34px;
+  }
+
+  .title .solution {
+    display: block;
+  }
+
+  .contactus {
+    margin-top: 41px;
+  }
+
+  .contactus img {
+    width: 109px;
+  }
+
+
+  #lionchain {
+    padding-top: 0px;
+  }
+
+  .select {
+    font-size: 30px;
+    letter-spacing: 2.25px;
+    line-height: 51px;
+  }
+
+  .technology {
+    margin-top: 7px;
+    font-size: 14px;
+    letter-spacing: 1.31px;
+    line-height: 21px;
+  }
+
+  #why {
+    margin-top: 63px;
+  }
+
+  #why img {
+    height: 83px;
+  }
+
+  #why h2 {
+    margin: 17px 0px;
+    font-size: 15px;
+    letter-spacing: 1.46px;
+    line-height: 21px;
+  }
+
+  #why p {
+    font-size: 14px;
+    letter-spacing: 1.31px;
+    line-height: 21px;
+    margin-bottom: 50px;
+  }
+
+  #why .project-consultant {
+    margin-bottom: 0px;
+  }
+
+
+  #server {
+    padding-top: 151px;
+    padding-bottom: 51px;
+  }
+
+  #server h1 {
+    font-size: 30px;
+    letter-spacing: 2.25px;
+    line-height: 51px;
+    margin-top: 0px;
+  }
+
+  #item {
+    margin-top: 46px;
+  }
+
+  #server img {
+    height: 51px;
+  }
+
+  #server h2 {
+    margin-top: 39px;
+    font-size: 15px;
+    letter-spacing: 1.46px;
+    line-height: 21px;
+  }
+
+  .item1 {
+    margin-bottom: 17px;
+  }
+
+  #server ul {
+    font-size: 14px;
+    letter-spacing: 1.31px;
+    line-height: 21px;
+    margin-bottom: 0px;
+  }
+
+  #server ul .list1 {
+    padding-right: 31px;
+  }
+
+  #server ul .list6 {
+    padding-right: 30px;
+  }
+
+  .middle {
+    margin-top: 69px;
+  }
+
+  #slicecopy2 {
+    margin-top: 0px;
+  }
+
+  #server ul .list2, .list3 {
+    padding-right: 15px;
+  }
+
+  .item2, #item3, #item4 {
+    margin-bottom: 38px;
+  }
+
+  #server ul .list4 {
+    padding-right: 91px;
+  }
+
+  #server .slice {
+    margin-top: 0px;
+  }
+
+  #block-chain-project {
+    margin-bottom: 69px;
+  }
+
+  #server ul .list5 {
+    padding-right: 46px;
+  }
+
+
+  #representative {
+    padding-top: 51px;
+    padding-bottom: 155px;
+  }
+
+  #representative h1 {
+    font-size: 30px;
+    letter-spacing: 2.25px;
+    line-height: 51px;
+    margin-bottom: 31px;
+  }
+
+  #representative .family {
+    width: auto;
+    padding-right: 30px;
+  }
+
+  #representative ul {
+    font-size: 14px;
+    letter-spacing: 0.88px;
+    line-height: 25px;
+  }
+
+  #representative ul > li {
+    background-position-y: 5px;
+    background-size: 14px 14px;
+  }
+
+  #representative .cooperative-partner {
+    margin-top: 102px;
+    margin-bottom: 57px;
+  }
+
+  #representative .partner .partner1 {
+    margin-bottom: 62px;
+  }
+
+  #representative .partner .partner1 img {
+    width: 189px;
+  }
+
+  #representative .partner .partner2 {
+    margin-bottom: 57px;
+  }
+
+  #representative .partner .partner2 img {
+    width: 234px;
+  }
+
+  #representative .partner .partner3 img {
+    width: 106px;
+  }
+
+
+  #team {
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+
+  #team h1 {
+    font-size: 30px;
+    letter-spacing: 2.25px;
+    line-height: 51px;
+  }
+
+  #talent {
+    margin-bottom: 59px;
+    margin-top: 7px;
+    font-size: 14px;
+    letter-spacing: 1.31px;
+    line-height: 25px;
+  }
+
+  #character img {
+    height: 105px;
+    width: 105px;
+  }
+
+  #character h2 {
+    margin-top: 25px;
+    font-size: 27px;
+    letter-spacing: 2.62px;
+    line-height: 37.8px;
+  }
+
+  #character h3 {
+    font-size: 19px;
+    letter-spacing: 2.62px;
+    line-height: 37.8px;
+    margin-bottom: 20px;
+  }
+
+  #character p {
+    width: auto;
+    padding: 0px 30px 57px 30px;
+  }
+
+  #consultant {
+    margin-bottom: 0px;
+  }
+
+  #team .principal {
+    width: auto;
+  }
+
+  #character .senior-visual-designer {
+    padding-bottom: 0px;
+  }
+
+  #institute .university-researcher {
+    width: 500px;
+    padding-left: 0px;
+  }
+
+  #institute {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  #institute .names {
+    margin-bottom: 0;
+  }
+
+  #institute .university-researcher .box {
+    width: 220px;
+    padding-left: 70px;
+    margin-left: 7px;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  #institute .university-researcher .box1,#institute .university-researcher .box2 {
+    margin-bottom: 24px;
+  }
+
+  #institute .university-researcher .box3 {
+    margin-bottom: 60px;
+  }
+
+  #institute .university-researcher .box4 {
+    margin-bottom: 18px;
+  }
+
+  #institute .university-researcher .box5,#institute .university-researcher .box6 {
+    margin-bottom: 37px;
+  }
+
+  #institute h1 {
+    font-size: 30px;
+    letter-spacing: 2.25px;
+    line-height: 51px;
+    margin-bottom: 7px;
+  }
+
+  #institute .legal {
+    width: auto;
+    padding: 0px 30px;
+    font-size: 14px;
+    letter-spacing: 1.31px;
+    line-height: 25px;
+  }
+
+  #institute h2 {
+    margin-top: 25px;
+    margin-bottom: 33px;
+    font-size: 15px;
+    letter-spacing: 2.25px;
+    line-height: 30px;
+  }
+
+  #institute .names {
+    font-size: 14px;
+    letter-spacing: 1.02px;
+    line-height: 21px;
+  }
+
+  #institute .researcher {
+    font-size: 11px;
+    letter-spacing: 1.02px;
+    line-height: 21px;
+  }
+
+  #institute .report {
+    margin-top: 46px;
+    margin-bottom: 29px;
+  }
+
+  #institute .legal-policy img {
+    height: 147px;
+  }
+
+  #institute #research-report ul .virtual-currency {
+    font-size: 12px;
+    letter-spacing: 1.31px;
+    line-height: 27px;
+  }
+
+  #institute #research-report ul .coming-soon {
+    font-size: 12px;
+    letter-spacing: 1.31px;
+    line-height: 27px;
+  }
+
+  #institute #research-report ul .virtual-currency2 {
+    margin-right: 49px;
+  }
+
+  #institute #research-report ul .virtual-currency3 {
+    margin-right: 63px;
+  }
+
+  #institute #research-report ul .coming-soon1 {
+    margin-left: 15px;
+  }
+
+  #institute #research-report ul .coming-soon2 {
+    margin-left: 14px;
+  }
+
+  #institute #research-report ul .coming-soon3 {
+    margin-left: 27px;
+  }
+
+
+  #footer {
+    padding: 40px 0px 135px 0px;
+  }
+
+  #footer h1 {
+    font-size: 24px;
+    letter-spacing: 1.8px;
+    line-height: 51px;
+    margin-bottom: 22px;
+  }
+
+  #footer .contactus1 img {
+    width: 109px;
+  }
+
+
+  #program {
+    background-size: 800px 1000px;
+  }
+
+  #lionchain {
+    background-size: 800px 900px;
+  }
+
+  #server {
+    background-size: 800px 1900px;
+  }
+
+  #representative {
+    background-size: 800px 1100px;
+  }
+
+  #team {
+    background-size: 800px 2300px;
+  }
+
+  #institute {
+    background-size: 800px 1200px;
+  }
+
+  #footer {
+    background-size: 800px 300px;
+  }
+}
+
+@media print, screen and (max-width: 530px) {
+  #institute .university-researcher {
+    width: 370px;
+  }
+
+  #institute .university-researcher .box {
+    width: 175px;
+    padding-left: 42px;
+  }
+
+
+  #program {
+    background-size: 600px 1300px;
+  }
+
+  #lionchain {
+    background-size: 600px 900px;
+  }
+
+  #representative {
+    background-size: 600px 1250px;
+  }
+
+  #team {
+    background-size: 600px 2700px;
+  }
+
+  #institute {
+    background-size: 600px 1300px;
+  }
+
+  #footer {
+    background-size: 600px 300px;
+  }
+}
+
+@media print, screen and (max-width: 450px) {
+  #representative {
+    background-size: 600px 1350px;
+  }
+}
+
+@media print, screen and (max-width: 399px) {
+  #institute .university-researcher {
+    width: 320px;
+  }
+
+  #institute .university-researcher .box {
+    width: 125px;
+    padding-left: 42px;
+  }
 }
